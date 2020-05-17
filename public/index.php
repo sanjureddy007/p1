@@ -1,4 +1,10 @@
-<?php
+<html>
+    <!-- Testing -->
+	<head>
+		<link rel="stylesheet" type="text/css" href="/styles.css" media="screen"/>
+	</head>
+	<body>
+		<?php
 header("Content-Type:application/json");
 require "data.php";
 
@@ -59,3 +65,5 @@ function get_rating($name)
 }
 
 ?>
+		</body>
+</html>
