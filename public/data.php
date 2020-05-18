@@ -2,7 +2,7 @@
 function get_rate($name, $rating)
 {     
   /* Database INFO */
-	$servername = "wyvern.cs.newpaltz.edu";
+	$servername = "localhost";
 	$username = "mudupus1";
 	$password = "u9nd56";   
     $dbname = "mudupus1_db";
